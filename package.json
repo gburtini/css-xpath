@@ -1,0 +1,28 @@
+{
+  "name": "css-xpath",
+  "version": "1.0.0",
+  "description": "Translate CSS rules in to XPath expressions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "coverage": "./node_modules/.bin/istanbul cover -- node_modules/.bin/_mocha"
+  },
+  "keywords": [
+    "xpath",
+    "css",
+    "firebug",
+    "xpath-expressions",
+    "css-selectors"
+  ],
+  "author": "Giuseppe Burtini and the Firebug team",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gburtini/css-xpath.git"
+  }
+}

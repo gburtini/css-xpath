@@ -13,7 +13,7 @@ function specialSelectorToXPathPiece(element) {
   }
 }
 
-function cssToXPath(rule) {
+function cssXPath(rule) {
   let index = 1;
   const parts = ['//', '*'];
   let lastRule = null;
@@ -101,4 +101,4 @@ function cssToXPath(rule) {
   return xPath;
 }
 
-module.exports = cssToXPath;
+module.exports = cssXPath;

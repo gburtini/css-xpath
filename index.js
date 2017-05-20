@@ -1,1 +1,1 @@
-module.exports = require('./src/cssToXPath');
+module.exports = require('./src/cssXPath');

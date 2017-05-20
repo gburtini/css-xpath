@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const cssXPath = require('../src/cssToXPath');
+const cssXPath = require('../src/cssXPath');
 
 describe('cssToXPath', () => {
   it('should be able to convert simple rule', () => {

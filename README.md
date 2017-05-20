@@ -15,7 +15,7 @@ const cssXPath = require('css-xpath');
 cssXPath('html > body') // '//html/body'
 ```
 
-That's the whole library. Take in a CSS selector, output an XPath query. 
+That's the whole library. Take in a CSS selector, output an XPath query. To see some example outputs, [consult the tests](test/cssXPath.spec.js).
 
 They're unexposed, but if you want, there's some [regular expressions](src/patterns.js) that might be interesting if you're trying to parse CSS yourself. They are not exposed, 
 

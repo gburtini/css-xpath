@@ -6,8 +6,6 @@ Single method library for converting CSS selectors to XPath queries. This forked
 
 Installation
 ------------
-`npm install --save css-xpath`
-or
 `yarn add css-xpath`
 
 Usage
@@ -20,6 +18,10 @@ cssXPath('html > body') // '//html/body'
 That's the whole library. Take in a CSS selector, output an XPath query. 
 
 They're unexposed, but if you want, there's some [regular expressions](src/patterns.js) that might be interesting if you're trying to parse CSS yourself. They are not exposed, 
+
+Bugs
+----
+Please submit a pull request with a failing test or create an issue if you get unexpected results. Our current perspective is that any valid XPath query that has the same selector semantics is a correct result, but in general, we do produce and prefer simpler queries to unnecessarily complex ones.
 
 License
 -------
